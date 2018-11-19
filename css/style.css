@@ -1,0 +1,94 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.site-wrap{
+    max-width: 1300px;
+    margin: -1px 0 0 0;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    padding: 20px 200px 20px 200px;
+}
+.nav-top{
+    width: 50%;
+}
+.nav-top li{
+    list-style: none;
+    display: inline-flex;
+    padding: 0 100px 0 0;
+    align-items: center;
+    font-variant: small-caps;
+    font-size: 1.5em;
+}
+.nav-top ul{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.top-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+}
+.top-container h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.biography{
+    margin-left: auto;
+    margin-right: auto;
+    width: 535px;
+    font-size: 1.5em;
+    padding: 0;
+    margin-top: 84px;
+}
+.biography li{
+    padding-bottom: 75px;
+}
+.biography a{
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+
+}
+.top-container form{
+    width: 250px;
+    margin: 0 auto;
+}
+#email{
+    width: 100%;
+    height: 20px;
+}
+#email::placeholder{
+    padding-left: 10px;
+}
+.submit-btn{
+    width: 120px;
+    height: 35px;
+    background-color: gray;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+.video-container{
+    width: 100%;
+    height: 150px;
+    outline: 1px solid black;
+    margin-bottom: 500px;
+}
+
